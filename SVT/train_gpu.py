@@ -152,7 +152,7 @@ def get_args_parser():
 
 
     # Dataset parameters
-    parser.add_argument('--data_root', default='/usr/local/Huangshuqi/ImageData/flower_data/', type=str,
+    parser.add_argument('--data_root', default='/flower_data/', type=str,
                         help='dataset path')
     parser.add_argument('--nb_classes', type=int, default=5, help='num_classes of your datasets')
     parser.add_argument('--use-mcloader', action='store_true', default=False, help='Use mcloader')
